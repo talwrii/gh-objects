@@ -4,7 +4,7 @@ import distutils.core
 
 setuptools.setup(
     name='gh-things',
-    version="1.1.1",
+    version="1.1.2",
     author='@readwithai',
     long_description_content_type='text/markdown',
     author_email='talwrii@gmail.com',
