@@ -29,6 +29,9 @@ To get information about a repository you can run:
 gh-things repo url
 ```
 
+For and understanding and searching the output, you may like to combine this with [gron](https://github.com/tomnomnom/gron) or [json-leaves](https://github.com/talwrii/json-leaves) to make output greppable.
+
+
 ## Caveats
 I will slowly add features here as I need them. I'll likely add methods for users and stargazers soon.
 
