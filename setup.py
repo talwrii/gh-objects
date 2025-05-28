@@ -3,7 +3,7 @@ import distutils.core
 
 
 setuptools.setup(
-    name='gh-objects',
+    name='gh-things',
     version="1.0.1",
     author='@readwithai',
     long_description_content_type='text/markdown',
@@ -11,11 +11,10 @@ setuptools.setup(
     description='Companion app for the Github CLI gh to fetch machine readable information about Github objects',
     license='GPLv3',
     keywords='github,gh,JSON,objects',
-    url='',
+    url='https://github.com/talwrii/gh-objects',
     packages=["gh_objects"],
     long_description=open('README.md').read(),
     entry_points={
-        'console_scripts': ['gh-objects=gh_objects.main:main']
-    },
-    test_suite='nose.collector'
+        'console_scripts': ['gh-things=gh_things.main:main']
+    }
 )

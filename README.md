@@ -1,4 +1,4 @@
-# gh-objects: Github objects
+# gh-things: Github things
 **@readwithai** - [X](https://x.com/readwithai) - [blog](https://readwithai.substack.com/) - [machine-aided reading](https://www.reddit.com/r/machineAidedReading/) - [📖](https://readwithai.substack.com/p/what-is-reading-broadly-defined
 )[⚡️](https://readwithai.substack.com/s/technical-miscellany)[🖋️](https://readwithai.substack.com/p/note-taking-with-obsidian-much-of)
 
@@ -15,18 +15,18 @@ The Github API is complete and can easily be called with `gh api`. You do howeve
 `gh` itself can often view objects with the `--json` and `--jq` methods.
 
 ## Installation
-You can install `gh-objects` using [pipx](https://github.com/pypa/pipx) with:
+You can install `gh-things` using [pipx](https://github.com/pypa/pipx) with:
 ```
-pipx instal gh-objects
+pipx instal gh-things
 ```
 
-`gh-objects` requires the [gh command-line tool](https://github.com/cli/cli).
+`gh-things` requires the [gh command-line tool](https://github.com/cli/cli).
 
 ## Usage
 To get information about a repository you can run:
 
 ```
-gh-objects repo url
+gh-things repo url
 ```
 
 ## Caveats
