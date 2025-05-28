@@ -4,11 +4,11 @@ import distutils.core
 
 setuptools.setup(
     name='gh-objects',
-    version="1.0.0",
+    version="1.0.1",
     author='@readwithai',
     long_description_content_type='text/markdown',
-    author_email='Email',
-    description='',
+    author_email='talwrii@gmail.com',
+    description='Companion app for the Github CLI gh to fetch machine readable information about Github objects',
     license='GPLv3',
     keywords='github,gh,JSON,objects',
     url='',
